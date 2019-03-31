@@ -58,7 +58,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #203061;
   text-align: left;
   background-color: #FFFFFF;
 }
@@ -1734,7 +1734,7 @@ pre code {
 
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
-  background-color: #b9bbbe;
+  background-color: #203061;
 }
 
 .table-active,
