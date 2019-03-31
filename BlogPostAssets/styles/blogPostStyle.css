@@ -73,7 +73,7 @@ header nav a {
 }
 footer article {
 	/* Footer articles */
-	width: 80%;
+	width: 100%;
 	float: left;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -81,7 +81,7 @@ footer article {
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
-	color: rgba(67,67,67,1.00);
+	color: rgba(15,15,15,1.00);
 }
 footer article h3 {
 	/* Footer article titles */
@@ -136,7 +136,7 @@ nav ul {
 	padding-left: 0%;
 }
 nav ul li a {
-	color: rgba(146,146,146,1.00);
+	color: rgba(255,255,255,1.00);
 	text-decoration: none;
 }
 #footerbar {
@@ -205,10 +205,10 @@ footer {
 	margin-left: 2%;
 	padding-bottom: 13px;
 }
-#content #sidebar #adimage {
+#content #sidebar #neatimage {
 	/* Image in sidebar */
 	width: 60%;
-	margin-top: 0px;
+	margin-top: 20px;
 	float: left;
 }
 #content #sidebar nav {
@@ -249,7 +249,7 @@ footer {
 	background-color: rgba(255,255,255,1.00);
 	width: 98%;
 }
-#content #sidebar #adimage {
+#content #sidebar #neatimage {
 	/* Container for image in sidebar */
 	width: 100%;
 }
