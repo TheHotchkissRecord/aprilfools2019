@@ -51,7 +51,7 @@ header nav a {
 #content #mainContent p {
 	/* All paragraphs under maincontent */
 	color: rgba(42,42,42,1.00);
-	font-family: alike, serif;
+	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	text-align: justify;
