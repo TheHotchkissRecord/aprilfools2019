@@ -26,17 +26,24 @@
 	float: left;
 	color: rgba(32,48,97,1.00);
 }
-header nav a {
-	/* Links in header */
-	padding-right: 2%;
-	color: #FFFFFF;
+@media screen and (max-width: 400px){
+    header nav a {
+		padding-right: 2%;
+        color: black;
+    }
+}
+@media screen and (min-width: 401px){
+    header nav a {
+		padding-right: 2%;
+        color: white;
+    }
 }
 #content #mainContent h1, #content #mainContent h2 {
 	/* Styling for main headings */
 	color: rgba(32,48,97,1.00);
 }
 #content #mainContent h3 {
-	/*Captions ot Taglines */
+	/*Captions or Taglines */
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
@@ -54,6 +61,7 @@ header nav a {
 	font-style: normal;
 	font-weight: 200;
 	text-align: justify;
+	color: rgba(17,17,17,1.00);
 }
 #content #mainContent #authorInfo {
 	/* Author info section */
@@ -119,10 +127,10 @@ footer article h3 {
 	width: 98%;
 	height: 32px;
 }
-#content #sidebar #adimage {
+#content #sidebar #neatimage {
 	/* Container for Image in sidebar */
 	width: 100%;
-	background-color: rgba(208,207,207,1.00);
+	background-color: rgba(0,0,0,1.00);
 	margin-top: 46px;
 	float: none;
 	overflow: auto;
