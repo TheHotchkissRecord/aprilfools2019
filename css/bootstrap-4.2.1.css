@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: #202f5a;
+  color: inherit;
   text-decoration: none;
   background-color: transparent;
 }
